@@ -7,8 +7,8 @@
 
 <apns version="8">
 
-  <apn carrier="Orbcomm"
-      carrier_id = "2135"
+  <apn carrier="Orbcomm (orbogd1.vp)"
+      carrier_id = "9998"
       mcc="208"
       mnc="01"
       apn="orbogd1.vp"
@@ -17,4 +17,13 @@
       mvno_type="imsi"
   />
 
+  <apn carrier="Orbcomm (t-mobile)"
+      carrier_id = "9998"
+      mcc="310"
+      mnc="240"
+      apn="orbcomm.fast.t-mobile.com"
+      type="default,ia,supl"
+      mvno_type="gid"
+      mvno_match_data="3201"
+  />
 </apns>
